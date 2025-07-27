@@ -1,0 +1,95 @@
+.wrapper{
+    margin: 0 auto;
+    width: 1200px;
+}
+body{
+    background-color: #f3f5f7;
+}
+/* 设置头部颜色何高度 */
+.header{
+    height: 100px;
+    background-color: #ffffff;
+}
+/* 设置头部的内边距 */
+.header .wrapper{
+    padding-top: 29px;
+    display: flex;
+}
+/* 设置logo的超链接和大小尺寸 */
+.logo a{
+    display: block;
+    width: 195px;
+    height: 41px;
+    background-image: url(../images/logo.png);
+    font-size: 0;
+}
+/* 设置导航和logo的边距 */
+.nav{
+    margin-left:102px;
+}
+/* 设置导航里的li为flex */
+.nav ul{
+    display: flex;
+}
+.nav li{
+    margin-right: 24px;
+}
+.nav li a{
+    display: block;
+    padding: 6px 8px;
+    line-height: 27px;
+    font-size: 19px;
+}
+.nav li .active,
+.nav li a:hover{
+    border-bottom: 2px solid #00a4ff;
+}
+.search{
+    margin-left: 64px;
+    display: flex;
+    padding-left: 19px;
+    padding-right: 12px;
+	width: 412px;
+	height: 40px;
+	background-color: #f3f5f7;
+	border-radius: 20px;
+}
+.search input{
+    flex: 1;
+    border: 0;
+    background-color: #f3f5f7;
+    outline: none;
+}
+.search input::placeholder{ 
+    font-size: 14px;
+    color: #999999;
+}
+.search a{
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/search.png);
+    align-self: center;
+}
+.user{
+    display: flex;
+    margin-top: 4px;
+    margin-left: 32px;
+}
+.user img{
+    margin-right: 7px;
+    vertical-align: middle;
+}
+.user span{
+    color: #666666;
+    font-size: 16px;
+    margin: 4px 0;
+}
+
+.banner{
+    height: 420px;
+    background-color: #0092cb;
+}
+.banner .wrapper{
+    height: 420px;
+    background-image: url(../uploads/banner.png);
+}
