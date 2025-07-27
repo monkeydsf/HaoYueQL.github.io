@@ -1,5 +1,5 @@
 
-.wrapper{
+。wrapper{
     margin: 0 auto;
     width: 1200px;
 }
@@ -7,12 +7,12 @@ body{
     background-color: #f3f5f7;
 }
 /* 设置头部颜色何高度 */
-.header{
+。header{
     height: 100px;
     background-color: #ffffff;
 }
 /* 设置头部的内边距 */
-.header .wrapper{
+。header .wrapper{
     padding-top: 29px;
     display: flex;
 }
